@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" xml:lang="en" xmlns:og="http://ogp.me/ns#">
+    <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# place: http://ogp.me/ns/place#">
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+        <title>Test Picture Tag</title>
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:description" content="Happy little tree leaves" />
+        <meta name="twitter:title" content="Bob Ross" />
+        <meta name="twitter:image" content="https://jeremiekaszub.github.io/og-tests/images/Bob_Ross_afro.png" />
+        <meta property="og:title" content="Bob Ross" />
+        <meta property="og:url" content="https://jeremiekaszub.github.io/og-tests/" />
+        <meta property="og:image" content="https://jeremiekaszub.github.io/og-tests/images/Bob_Ross_afro.png"/>
+        <meta property="og:description" content="Happy little tree leaves" />
+        <meta property="og:type" content="website" />
+
+        <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+        <style type="text/css">
+            img {
+                width: 100%;
+            }
+        </style>
+    </head>
+    <body class="app">
+        <div class="container">
+            <picture>
+                <source srcset="https://placeholdit.imgix.net/~text?txtsize=33&txt=480%C3%97150&w=480&h=150" media="(max-width: 479px)">
+                <source srcset="https://placeholdit.imgix.net/~text?txtsize=33&txt=720%C3%97150&w=720&h=150" media="(max-width: 991px)">
+                <source srcset="https://placeholdit.imgix.net/~text?txtsize=33&txt=940%C3%97150&w=940&h=150" media="(max-width: 1199px)">
+                <img src="https://placeholdit.imgix.net/~text?txtsize=33&txt=1140%C3%97150&w=1140&h=150">
+            </picture>
+        </div>
+        <div class="container">
+            <img src="https://placeholdit.imgix.net/~text?txtsize=33&txt=1140%C3%97150&w=1140&h=150"
+                 srcset="https://placeholdit.imgix.net/~text?txtsize=33&txt=480%C3%97150&w=480&h=150 480w, https://placeholdit.imgix.net/~text?txtsize=33&txt=720%C3%97150&w=720&h=150 992w, https://placeholdit.imgix.net/~text?txtsize=33&txt=940%C3%97150&w=940&h=150 1200w" />
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-3">
+                    <img src="https://placeholdit.imgix.net/~text?txtsize=55&txt=1140%C3%97150&w=1140&h=150"
+                         srcset="https://placeholdit.imgix.net/~text?txtsize=55&txt=480%C3%97150&w=480&h=150 480w, https://placeholdit.imgix.net/~text?txtsize=55&txt=720%C3%97150&w=720&h=150 992w, https://placeholdit.imgix.net/~text?txtsize=55&txt=940%C3%97150&w=940&h=150 1200w" />
+                </div>
+                <div class="col-xs-3">
+                    <img src="https://placeholdit.imgix.net/~text?txtsize=55&txt=1140%C3%97150&w=1140&h=150"
+                         srcset="https://placeholdit.imgix.net/~text?txtsize=55&txt=480%C3%97150&w=480&h=150 480w, https://placeholdit.imgix.net/~text?txtsize=55&txt=720%C3%97150&w=720&h=150 992w, https://placeholdit.imgix.net/~text?txtsize=55&txt=940%C3%97150&w=940&h=150 1200w" />
+                </div>
+                <div class="col-xs-3">
+                    <img src="https://placeholdit.imgix.net/~text?txtsize=55&txt=1140%C3%97150&w=1140&h=150&bg=00ff00"
+                         srcset="https://placeholdit.imgix.net/~text?txtsize=55&txt=480%C3%97150&w=480&h=150&bg=00ff00 480w, https://placeholdit.imgix.net/~text?txtsize=55&txt=720%C3%97150&w=720&h=150&bg=00ff00 992w, https://placeholdit.imgix.net/~text?txtsize=55&txt=940%C3%97150&w=940&h=150&bg=00ff00 1200w" />
+                </div>
+                <div class="col-xs-3">
+                    <img src="https://placeholdit.imgix.net/~text?txtsize=55&txt=1140%C3%97150&w=1140&h=150&bg=ff0000"
+                         srcset="https://placeholdit.imgix.net/~text?txtsize=55&txt=480%C3%97150&w=480&h=150&bg=ff0000 480w, https://placeholdit.imgix.net/~text?txtsize=55&txt=720%C3%97150&w=720&h=150&bg=ff0000 992w, https://placeholdit.imgix.net/~text?txtsize=55&txt=940%C3%97150&w=940&h=150&bg=ff0000 1200w" />
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <ul>
+                <li>Android 4.1: KO</li>
+                <li>Android 4.3: OK</li>
+                <li>Android 4.4: OK</li>
+                <li>Android 5: OK</li>
+                <li>Android 6: OK</li>
+                <li>Internet Explorer (all versions): KO</li>
+                <li>EDGE (all versions): OK</li>
+                <li>Firefox 53: OK</li>
+                <li>Chrome 58: OK</li>
+                <li>Opera 45: OK</li>
+                <li>Safari 10: OK</li>
+                <li>iOS 9: KO</li>
+                <li>iOS 10: OK</li>
+            </ul>
+            <ul>
+                <li>https://gtmetrix.com/reports/kavrillon.github.io/rLtM4qnp</li>
+                <li>https://gtmetrix.com/reports/kavrillon.github.io/vBeg817G</li>
+            </ul>
+        </div>
+    </body>
+</html>
